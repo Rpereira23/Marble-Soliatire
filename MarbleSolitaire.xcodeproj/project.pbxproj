@@ -7,13 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2E15FD2170F59C00E78A1C /* MarbleCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E15FC2170F59C00E78A1C /* MarbleCollectionViewLayout.swift */; };
+		AA2E15FF217107B900E78A1C /* MarbleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E15FE217107B900E78A1C /* MarbleCollectionViewCell.swift */; };
+		AA2E160F21714D4C00E78A1C /* MarbleSolitaireModelImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E160D21714D4C00E78A1C /* MarbleSolitaireModelImpl.swift */; };
+		AA2E161021714D4C00E78A1C /* MarbleSolitaireModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2E160E21714D4C00E78A1C /* MarbleSolitaireModel.swift */; };
 		AA504779216EA57C00972AD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA504778216EA57C00972AD3 /* AppDelegate.swift */; };
-		AA50477B216EA57C00972AD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50477A216EA57C00972AD3 /* ViewController.swift */; };
 		AA50477E216EA57C00972AD3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA50477C216EA57C00972AD3 /* Main.storyboard */; };
 		AA504780216EA57F00972AD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA50477F216EA57F00972AD3 /* Assets.xcassets */; };
 		AA504783216EA57F00972AD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA504781216EA57F00972AD3 /* LaunchScreen.storyboard */; };
 		AA50478E216EA57F00972AD3 /* MarbleSolitaireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA50478D216EA57F00972AD3 /* MarbleSolitaireTests.swift */; };
 		AA504799216EA57F00972AD3 /* MarbleSolitaireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA504798216EA57F00972AD3 /* MarbleSolitaireUITests.swift */; };
+		AA5047AD216EDC0600972AD3 /* MarblesCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5047AC216EDC0600972AD3 /* MarblesCollectionViewController.swift */; };
+		AA5047AF216EEFE900972AD3 /* MarbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5047AE216EEFE900972AD3 /* MarbleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +39,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA2E15FC2170F59C00E78A1C /* MarbleCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleCollectionViewLayout.swift; sourceTree = "<group>"; };
+		AA2E15FE217107B900E78A1C /* MarbleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleCollectionViewCell.swift; sourceTree = "<group>"; };
+		AA2E160D21714D4C00E78A1C /* MarbleSolitaireModelImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarbleSolitaireModelImpl.swift; sourceTree = "<group>"; };
+		AA2E160E21714D4C00E78A1C /* MarbleSolitaireModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MarbleSolitaireModel.swift; sourceTree = "<group>"; };
 		AA504775216EA57C00972AD3 /* MarbleSolitaire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarbleSolitaire.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA504778216EA57C00972AD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AA50477A216EA57C00972AD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AA50477D216EA57C00972AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AA50477F216EA57F00972AD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA504782216EA57F00972AD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 		AA504794216EA57F00972AD3 /* MarbleSolitaireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarbleSolitaireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA504798216EA57F00972AD3 /* MarbleSolitaireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleSolitaireUITests.swift; sourceTree = "<group>"; };
 		AA50479A216EA57F00972AD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA5047AC216EDC0600972AD3 /* MarblesCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarblesCollectionViewController.swift; sourceTree = "<group>"; };
+		AA5047AE216EEFE900972AD3 /* MarbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarbleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +84,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA2E16042171251200E78A1C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				AA5047AC216EDC0600972AD3 /* MarblesCollectionViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		AA2E16052171251F00E78A1C /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E15FC2170F59C00E78A1C /* MarbleCollectionViewLayout.swift */,
+			);
+			path = Layout;
+			sourceTree = "<group>";
+		};
+		AA2E16062171252500E78A1C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E160E21714D4C00E78A1C /* MarbleSolitaireModel.swift */,
+				AA2E160D21714D4C00E78A1C /* MarbleSolitaireModelImpl.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA2E16072171252900E78A1C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA2E15FE217107B900E78A1C /* MarbleCollectionViewCell.swift */,
+				AA5047AE216EEFE900972AD3 /* MarbleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA2E16082171253800E78A1C /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				AA504778216EA57C00972AD3 /* AppDelegate.swift */,
+				AA50477F216EA57F00972AD3 /* Assets.xcassets */,
+				AA504781216EA57F00972AD3 /* LaunchScreen.storyboard */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
 		AA50476C216EA57C00972AD3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,12 +151,13 @@
 		AA504777216EA57C00972AD3 /* MarbleSolitaire */ = {
 			isa = PBXGroup;
 			children = (
-				AA504778216EA57C00972AD3 /* AppDelegate.swift */,
-				AA50477A216EA57C00972AD3 /* ViewController.swift */,
-				AA50477C216EA57C00972AD3 /* Main.storyboard */,
-				AA50477F216EA57F00972AD3 /* Assets.xcassets */,
-				AA504781216EA57F00972AD3 /* LaunchScreen.storyboard */,
+				AA2E16082171253800E78A1C /* Support */,
+				AA2E16072171252900E78A1C /* View */,
+				AA2E16062171252500E78A1C /* Model */,
+				AA2E16052171251F00E78A1C /* Layout */,
+				AA2E16042171251200E78A1C /* Controllers */,
 				AA504784216EA57F00972AD3 /* Info.plist */,
+				AA50477C216EA57C00972AD3 /* Main.storyboard */,
 			);
 			path = MarbleSolitaire;
 			sourceTree = "<group>";
@@ -256,8 +311,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA50477B216EA57C00972AD3 /* ViewController.swift in Sources */,
 				AA504779216EA57C00972AD3 /* AppDelegate.swift in Sources */,
+				AA2E160F21714D4C00E78A1C /* MarbleSolitaireModelImpl.swift in Sources */,
+				AA5047AF216EEFE900972AD3 /* MarbleView.swift in Sources */,
+				AA2E161021714D4C00E78A1C /* MarbleSolitaireModel.swift in Sources */,
+				AA2E15FD2170F59C00E78A1C /* MarbleCollectionViewLayout.swift in Sources */,
+				AA2E15FF217107B900E78A1C /* MarbleCollectionViewCell.swift in Sources */,
+				AA5047AD216EDC0600972AD3 /* MarblesCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
